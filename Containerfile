@@ -1,4 +1,4 @@
-FROM ghcr.io/ublue-os/cosmic:latest
+FROM ghcr.io/ublue-os/cosmic
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:stable
