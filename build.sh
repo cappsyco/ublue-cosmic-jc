@@ -14,5 +14,4 @@ dnf5 -y copr enable ublue-os/staging
 dnf5 -y copr disable ublue-os/staging
 
 # service init
-systemctl enable cosmic-greeter
 systemctl enable podman.socket
