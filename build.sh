@@ -23,7 +23,9 @@ dnf5 -y copr disable ublue-os/staging
 ## CUSTOM
 
 # Starship
-curl -sS https://starship.rs/install.sh | sh
+curl --retry 3 -Lo /tmp/starship.tar.gz "https://github.com/starship/starship/releases/latest/download/starship-x86_64-unknown-linux-gnu.tar.gz"
+tar -xzf /tmp/starship.tar.gz -C /tmp
+install -c -m 0755 /tmp/starship /usr/bin
 
 
 ## SERVICES
