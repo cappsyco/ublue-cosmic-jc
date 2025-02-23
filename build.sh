@@ -30,7 +30,8 @@ install -c -m 0755 /tmp/starship /usr/bin
 # tzyfetch
 curl --retry 3 -Lo /tmp/tzyfetch.tar.gz "https://github.com/cappsyco/tzyfetch/archive/refs/tags/1.0.0.tar.gz"
 tar -xzf /tmp/tzyfetch.tar.gz -C /tmp
-install -c -m 0755 /tmp/tzyfetch /usr/bin
+mv /tmp/tzyfetch.sh /usr/bin/tzyfetch
+chmod 0755 /usr/bin/tzyfetch
 
 
 ## SERVICES
