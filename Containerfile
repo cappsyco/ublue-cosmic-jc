@@ -1,4 +1,4 @@
-FROM ghcr.io/ublue-os/cosmic-41-amd64
+FROM ghcr.io/ublue-os/cosmic:41-amd64
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:stable
