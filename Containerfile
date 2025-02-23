@@ -14,6 +14,7 @@ FROM ghcr.io/ublue-os/cosmic:41-amd64
 ## the following RUN directive does all the things required to run "build.sh" as recommended.
 
 COPY build.sh /tmp/build.sh
+COPY packages.txt /tmp/packages.txt
 
 RUN mkdir -p /var/lib/alternatives && \
     /tmp/build.sh && \

@@ -8,7 +8,6 @@ set -ouex pipefail
 # enable copr
 dnf5 -y copr enable ublue-os/staging
 
-cp /ctx/packages.txt /tmp/packages.txt
 file="/tmp/packages.txt"
 while read -r package; 
 do
