@@ -20,11 +20,10 @@ done <$file
 dnf5 -y copr disable ublue-os/staging
 
 
-## FLATPAKS
+## CUSTOM
 
-# install flatpaks
-
-# remove uneeded flatpaks from upstream
+# Starship
+curl -sS https://starship.rs/install.sh | sh
 
 
 ## SERVICES
