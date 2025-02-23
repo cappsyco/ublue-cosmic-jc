@@ -5,7 +5,7 @@ set -ouex pipefail
 # enable copr
 dnf5 -y copr enable ublue-os/staging
 
-file="packages.txt"
+file="/tmp/packages.txt"
 while read -r package; 
 do
     if [ "$line" != "" ]; then
