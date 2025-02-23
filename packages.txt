@@ -1,4 +1,5 @@
 rustup
 gh
-
 fastfetch
+stow
+

@@ -27,7 +27,12 @@ curl --retry 3 -Lo /tmp/starship.tar.gz "https://github.com/starship/starship/re
 tar -xzf /tmp/starship.tar.gz -C /tmp
 install -c -m 0755 /tmp/starship /usr/bin
 
+# tzyfetch
+curl --retry 3 -Lo /tmp/tzyfetch.tar.gz "https://github.com/cappsyco/tzyfetch/archive/refs/tags/1.0.0.tar.gz"
+tar -xzf /tmp/tzyfetch.tar.gz -C /tmp
+install -c -m 0755 /tmp/tzyfetch /usr/bin
+
 
 ## SERVICES
 
-# systemctl enable podman.socket
+systemctl enable podman.socket
