@@ -1,5 +1,6 @@
 rustup
 gh
+zed
 fastfetch
 stow
 jetbrains-mono-fonts-all
