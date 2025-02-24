@@ -12,7 +12,7 @@ file="/tmp/packages.txt"
 while read -r package; 
 do
     if [ "$package" != "" ]; then
-        echo -e "dnf5 -y install $package\n"
+        dnf5 -y install $package
     fi
 done <$file
 
