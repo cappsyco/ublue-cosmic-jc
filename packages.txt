@@ -3,4 +3,5 @@ gh
 zed
 fastfetch
 stow
+lazygit
 jetbrains-mono-fonts-all
