@@ -2,4 +2,5 @@ rustup
 gh
 fastfetch
 stow
+docker
 jetbrains-mono-fonts-all
