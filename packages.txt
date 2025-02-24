@@ -2,4 +2,4 @@ rustup
 gh
 fastfetch
 stow
-
+jetbrains-mono-fonts-all
