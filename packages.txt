@@ -4,3 +4,4 @@ fastfetch
 stow
 docker
 jetbrains-mono-fonts-all
+nerd-fonts
