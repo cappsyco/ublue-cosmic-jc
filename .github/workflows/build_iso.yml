@@ -1,4 +1,4 @@
-name: Build Cosmic ISOs
+name: Build Cosmic ISO
 on:
   workflow_dispatch:
   pull_request:
