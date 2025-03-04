@@ -9,3 +9,4 @@ tailscale
 jetbrains-mono-fonts-all
 nerd-fonts
 xdg-user-dirs
+code
