@@ -26,7 +26,7 @@ jobs:
       matrix:
         image_name:
           [ublue-cosmic-jc]
-        fedora_version: [41]
+        fedora_version: [latest]
     env:
       IMAGE_TAG: ${{ matrix.fedora_version }}
       IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
