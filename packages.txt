@@ -1,7 +1,10 @@
+make
 rustup
+flatpak-builder
 gh
 fastfetch
 stow
 docker
+tailscale
 jetbrains-mono-fonts-all
 nerd-fonts
